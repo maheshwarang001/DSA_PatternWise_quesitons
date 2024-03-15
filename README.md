@@ -38,7 +38,7 @@ source- https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Techniqu
 - Count Vowel Substrings of a String
 
 ## Matrix
-###Traverse matrix in different ways and solve the Q
+### Traverse matrix in different ways and solve the Q
 -https://leetcode.com/problems/spiral-matrix/
 -https://leetcode.com/problems/spiral-matrix-ii/
 -https://leetcode.com/problems/game-of-life/
@@ -47,7 +47,7 @@ source- https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Techniqu
 -https://leetcode.com/problems/matrix-diagonal-sum/
 -https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 
-###Edit the Given Matrix
+### Edit the Given Matrix
 -https://leetcode.com/problems/rotate-image/
 -https://leetcode.com/problems/transpose-matrix/
 -https://leetcode.com/problems/set-matrix-zeroes/
@@ -55,13 +55,13 @@ source- https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Techniqu
 -https://leetcode.com/problems/flipping-an-image/
 -https://leetcode.com/problems/convert-1d-array-into-2d-array/
 
-###For every cell traverse complete matrix
+### For every cell traverse complete matrix
 -https://leetcode.com/problems/valid-sudoku/
 
-###given 2 matrix
+### given 2 matrix
 -https://leetcode.com/problems/sparse-matrix-multiplication/
 
-###map
+### map
 -https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/
 -https://leetcode.com/problems/find-smallest-common-element-in-all-rows/
 -https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
