@@ -1,0 +1,40 @@
+
+describe('getMediaStream', () => {
+  beforeEach(() => {
+    // Mock navigator.mediaDevices.getUserMedia
+    navigator.mediaDevices.getUserMedia = jest.fn();
+  });
+
+  it('sets local stream when getUserMedia is successful', async () => {
+    // Mock a MediaStream object
+    const mockStream = new MediaStream();
+    navigator.mediaDevices.getUserMedia.mockResolvedValueOnce(mockStream);
+
+    // Mock setLocalStream function
+    const setLocalStream = jest.fn();
+
+    // Call the function
+    await getMediaStream(setLocalStream);
+
+    // Assert that getUserMedia is called with the correct constraints
+    expect(navigator.mediaDevices.getUserMedia).toHaveBeenCalledWith({ audio: true, video: true });
+
+    // Assert that setLocalStream is called with the mock stream
+    expect(setLocalStream).toHaveBeenCalledWith(mockStream);
+  });
+
+  it('logs an error when getUserMedia fails', async () => {
+    // Mock an error
+    const mockError = new Error('Mock getUserMedia error');
+    navigator.mediaDevices.getUserMedia.mockRejectedValueOnce(mockError);
+
+    // Mock console.error
+    console.error = jest.fn();
+
+    // Call the function
+    await getMediaStream();
+
+    // Assert that console.error is called with the mock error
+    expect(console.error).toHaveBeenCalledWith('Error accessing media devices:', mockError);
+  });
+});
