@@ -71,5 +71,9 @@ source- https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Techniqu
 -https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 -https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
 -https://leetcode.com/problems/max-increase-to-keep-city-skyline/
+
+
+## Two pointers
+https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days.
 -https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 -https://leetcode.com/problems/special-positions-in-a-binary-matrix/
