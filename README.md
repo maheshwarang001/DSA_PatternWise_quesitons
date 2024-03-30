@@ -75,5 +75,8 @@ source- https://leetcode.com/discuss/study-guide/1773891/Sliding-Window-Techniqu
 
 ## Two pointers
 https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days.
+
+## Linked List
+https://leetcode.com/discuss/study-guide/2434752/90-of-the-Linked-List-questions-on-linked-list-classified-into-Types
 -https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 -https://leetcode.com/problems/special-positions-in-a-binary-matrix/
