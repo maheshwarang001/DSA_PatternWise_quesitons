@@ -78,5 +78,6 @@ https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problem
 
 ## Linked List
 https://leetcode.com/discuss/study-guide/2434752/90-of-the-Linked-List-questions-on-linked-list-classified-into-Types
+https://leetcode.com/list/9gvhzx23/
 -https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 -https://leetcode.com/problems/special-positions-in-a-binary-matrix/
